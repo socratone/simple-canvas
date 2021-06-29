@@ -6,7 +6,7 @@ let direction = 'right';
 
 function draw() {
   if (direction === 'right') x += 5;
-  else x += -5;
+  else x -= 5;
   if (x >= 200) direction = 'left'
   if (x <= 0) direction = 'right'
 
